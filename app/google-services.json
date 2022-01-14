@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "489899705882",
+    "firebase_url": "https://smart-marketing-apps-default-rtdb.firebaseio.com",
+    "project_id": "smart-marketing-apps",
+    "storage_bucket": "smart-marketing-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489899705882:android:f992ef086a7155f0c1b3a3",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASg_xLch6HW2S-agA7lYUQlnXyFzIIeW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489899705882:android:9a89a6edf2bdf9e2c1b3a3",
+        "android_client_info": {
+          "package_name": "com.example.marketingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASg_xLch6HW2S-agA7lYUQlnXyFzIIeW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489899705882:android:9d99bc51f1dcd2b8c1b3a3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASg_xLch6HW2S-agA7lYUQlnXyFzIIeW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489899705882-enkth2fpbkfi2pb3q0bp2oc1jbubigid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

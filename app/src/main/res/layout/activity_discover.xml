@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".DiscoverActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TV_DailyDiscover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserratbold"
+            android:text="Daily Discover"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.035" />
+
+
+        <EditText
+            android:id="@+id/ET_Search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_search"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="15dp"
+            android:elevation="4dp"
+            android:hint="Search"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.279"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/TV_DailyDiscover"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent=".7" />
+
+        <ImageButton
+            android:id="@+id/BTN_FilterProduct"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_filter_alt_24"
+            app:layout_constraintBottom_toTopOf="@+id/TV_FilteredProducts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ET_Search"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <TextView
+            android:id="@+id/TV_FilteredProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Showing All"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/RV_Products"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ET_Search"
+            app:layout_constraintVertical_bias="0.924" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RV_Products"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ET_Search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ET_Search"
+            tools:listitem="@layout/row_product"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/TV_Discover"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="Discover Your Desired Shoes"-->
+<!--        android:fontFamily="@font/montserratregular"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="24sp" />-->
+
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/ibSearchButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/etSearchField"-->
+<!--        android:layout_alignBottom="@+id/etSearchField"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:background="@android:color/background_light"-->
+<!--        android:minWidth="48dp"-->
+<!--        app:srcCompat="@mipmap/search_button" />-->
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:background="@drawable/round_corner"-->
+<!--        android:elevation="2dp"-->
+<!--        app:itemIconSize="30dp"-->
+<!--        app:itemIconTint="@drawable/item_selector"-->
+<!--        app:itemRippleColor="@android:color/transparent"-->
+<!--        app:labelVisibilityMode="unlabeled"-->
+<!--        app:menu="@menu/item_menu" />-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_corner"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/item_menu" />
+
+</RelativeLayout>

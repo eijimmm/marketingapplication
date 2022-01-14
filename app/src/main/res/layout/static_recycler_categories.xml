@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="130dp"
+    android:id="@+id/LL_Categories"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/static_recycler_bg"
+    android:elevation="2dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/IV_CategoriesIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/sneakers"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/TV_CategoriesName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sneakers"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserratregular"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_marginBottom="6dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="50dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    android:padding="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/IV_ShopImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_baseline_store_24"
+            app:civ_border_color="@color/gray"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp" />
+
+        <!--online/offline status-->
+<!--        <ImageView-->
+<!--            android:id="@+id/ivOnline"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:src="@drawable/shape_circle01"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvShopClosed"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toStartOf="@id/ivNext"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="Closed"-->
+<!--            android:background="@drawable/shape_rectangle"-->
+<!--            android:textColor="@color/red"-->
+<!--            android:textSize="10sp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/IV_ShopImage"
+            android:layout_toStartOf="@id/ivNext">
+
+            <TextView
+                android:id="@+id/TV_ShopName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:text="Shop Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TV_ShopPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/TV_ShopAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/black"/>
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingBarShop"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="end"-->
+<!--                style="@style/Widget.AppCompat.RatingBar.Small"-->
+<!--                android:numStars="5"-->
+<!--                android:rating="3.5"/>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

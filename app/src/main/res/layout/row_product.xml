@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/IV_ModelProdImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_store_24" />
+
+        <TextView
+            android:id="@+id/TV_ModelProdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IV_ModelProdImage"
+            android:text="Name"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserratbold"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/TV_ModelDiscountedPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/TV_ModelProdName"
+            android:text="RM10.00"
+            android:textSize="12sp"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/TV_ModelOriginalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TV_ModelProdName"
+            android:layout_toEndOf="@id/TV_ModelDiscountedPrice"
+            android:text="RM10.00"
+            android:textSize="12sp"
+            android:textColor="@color/red" />
+
+
+        <TextView
+            android:id="@+id/TV_DiscountNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect05"
+            android:padding="2dp"
+            android:layout_marginTop="1dp"
+            android:text="10% OFF"
+            android:textColor="@color/green"
+            android:textSize="10dp" />
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/CB_Favorite"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/IV_ModelProdImage"-->
+<!--            android:layout_alignBottom="@+id/IV_ModelProdImage"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginStart="258dp"-->
+<!--            android:layout_marginTop="-99dp"-->
+<!--            android:layout_marginEnd="19dp"-->
+<!--            android:layout_marginBottom="65dp"-->
+<!--            android:layout_toEndOf="@+id/TV_ModelProdName"-->
+<!--            android:button="@drawable/fav_checkbox_selector"-->
+<!--            android:padding="5dp" />-->
+
+        <CheckBox
+            android:id="@+id/CB_Favorite"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/TV_DiscountNote"
+            android:background="@drawable/fav_checkbox_selector"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="-341dp"
+            android:button="@null"
+            android:visibility="visible"/>
+
+
+        <!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_toEndOf="@id/TV_ModelDiscountedPrice"-->
+<!--            android:layout_below="@id/IV_ModelProdImage">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/TV_DiscountNote"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/shape_rect05"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="10% OFF"-->
+<!--                android:textColor="@color/green" />-->
+
+<!--        </LinearLayout>-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

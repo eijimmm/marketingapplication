@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnprofile"
+    tools:context=".ProfileCustomerActivity">
+
+    <ImageButton
+        android:id="@+id/IB_Undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="673dp"
+        android:layout_toRightOf="@+id/TV_MyProfile"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/TV_MyProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="608dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="My Profile"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/IV_UserImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_color="@color/gray"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/TV_FullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_UserImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TV_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TV_FullName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BTN_Edit"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="47dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:text="Edit Info"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTN_About"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/BTN_Edit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/btn_background"
+            android:fontFamily="@font/montserratregular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTN_Logout"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/BTN_About"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btn_background"
+            android:fontFamily="@font/montserratregular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:text="Log Out"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+    <!--    </RelativeLayout>-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="303dp"-->
+<!--        android:layout_marginTop="358dp"-->
+<!--        android:layout_marginEnd="67dp"-->
+<!--        android:layout_marginBottom="374dp"-->
+<!--        app:srcCompat="@drawable/ic_baseline_navigate_next_24"-->
+<!--        android:contentDescription="TODO" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="303dp"-->
+<!--        android:layout_marginTop="488dp"-->
+<!--        android:layout_marginEnd="66dp"-->
+<!--        android:layout_marginBottom="244dp"-->
+<!--        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="303dp"-->
+<!--        android:layout_marginTop="625dp"-->
+<!--        android:layout_marginEnd="67dp"-->
+<!--        android:layout_marginBottom="107dp"-->
+<!--        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />-->
+
+</RelativeLayout>

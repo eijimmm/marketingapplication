@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/background_tab.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/bgn_image_details.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/btn_background.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/circular_border.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/fav_checkbox_selector.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/header_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_favorite_default_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/item_selector.xml" value="0.11428571428571428" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/round_corner.xml" value="0.5142857142857142" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_circle01.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_green.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rect01.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rect02.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rect03.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rect04.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rect05.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_recttab.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_red.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/shape_search.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/static_recycler_bg.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/drawable/static_rv_selected.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/font/montserrat_regular.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_admin_login.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_discover.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_favourite.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_gallery.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_help.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_list_store.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_product_view.xml" value="0.17894736842105263" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_profile.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_profile_customer.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_profile_edit_user.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_shop_details.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_splash.xml" value="0.2097560975609756" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_user_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_user_login.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/activity_user_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/bottom_navigation.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/card_item.xml" value="0.25735294117647056" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/fragment_favourites.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/row_fav_product.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/row_product.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/row_shop.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/static_recycler_categories.xml" value="0.2077922077922078" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/static_recycler_shop.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/layout/toolbar.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/menu/item_menu.xml" value="0.17894736842105263" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarketingApplication/app/src/main/res/menu/store_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

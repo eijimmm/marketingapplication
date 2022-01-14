@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_user"
+    android:orientation="vertical"
+    tools:context=".UserSignUpActivity">
+
+  <LinearLayout
+      android:layout_width="250dp"
+      android:layout_marginStart="73dp"
+      android:layout_height="40dp"
+      android:orientation="horizontal"
+      android:background="@drawable/shape_rect01"
+      android:layout_marginTop="170dp">
+
+
+    <TextView
+        android:id="@+id/TV_LogIn"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:text="Log In"
+        android:textColor="@color/green"
+        android:textSize="18sp" />
+
+    <!--Tabs:Login, Signup-->
+    <TextView
+        android:id="@+id/TV_SignUp"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_green"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+  </LinearLayout>
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/IV_Profile"
+      android:layout_marginTop="10dp"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_gravity="center"
+      app:civ_border_color="@color/green"
+      app:civ_border_width="1dp"
+      android:src="@drawable/ic_person"/>
+
+  <EditText
+      android:id="@+id/ET_FullName"
+      android:layout_marginTop="10dp"
+      android:hint="Name"
+      android:textColorHint="@color/gray02"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:fontFamily="@font/montserratregular"
+      android:layout_width="250dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="75dp"
+      android:padding="5dp"
+      android:drawablePadding="5dp"
+      android:inputType="textPersonName|textCapWords"
+      android:background="@drawable/shape_rect03"
+      android:drawableStart="@drawable/ic_person" />
+
+  <EditText
+      android:textColorHint="@color/gray02"
+      android:id="@+id/ET_Phone"
+      android:layout_marginTop="5dp"
+      android:hint="Phone"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:fontFamily="@font/montserratregular"
+      android:layout_width="250dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="75dp"
+      android:padding="5dp"
+      android:drawablePadding="5dp"
+      android:inputType="phone"
+      android:background="@drawable/shape_rect03"
+      android:drawableStart="@drawable/ic_phone" />
+
+  <EditText
+      android:textColorHint="@color/gray02"
+      android:id="@+id/ET_Email"
+      android:layout_marginTop="5dp"
+      android:hint="Email"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:fontFamily="@font/montserratregular"
+      android:layout_width="250dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="75dp"
+      android:padding="5dp"
+      android:drawablePadding="5dp"
+      android:inputType="textEmailAddress"
+      android:background="@drawable/shape_rect03"
+      android:drawableStart="@drawable/ic_mail_gray"/>
+
+  <EditText
+      android:textColorHint="@color/gray02"
+      android:id="@+id/ET_Password"
+      android:layout_marginTop="5dp"
+      android:hint="Password"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:fontFamily="@font/montserratregular"
+      android:layout_width="250dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="75dp"
+      android:padding="5dp"
+      android:drawablePadding="5dp"
+      android:inputType="textPassword"
+      android:background="@drawable/shape_rect03"
+      android:drawableStart="@drawable/ic_lock_gray"/>
+
+  <EditText
+      android:textColorHint="@color/gray02"
+      android:id="@+id/ET_ConfirmPassword"
+      android:layout_marginTop="5dp"
+      android:hint="Confirm Password"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:fontFamily="@font/montserratregular"
+      android:layout_width="250dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="75dp"
+      android:padding="5dp"
+      android:drawablePadding="5dp"
+      android:inputType="textPassword"
+      android:background="@drawable/shape_rect03"
+      android:drawableStart="@drawable/ic_lock_gray"/>
+
+  <Button
+      android:id="@+id/Btn_SignUp"
+      android:layout_width="135dp"
+      android:layout_height="45dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="8dp"
+      app:backgroundTint="@null"
+      android:fontFamily="@font/montserratregular"
+      android:text="SIGN UP"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:elevation="10dp"
+      android:background="@drawable/shape_green"/>
+
+  </LinearLayout>
